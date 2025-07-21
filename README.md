@@ -38,16 +38,25 @@ flutter run
 ```
 
 ## 📸 Ekran Görüntüleri
-Maps View:
-<img src="screenshots/2.jpeg" width="300"/>
-<img src="screenshots/4.jpeg" width="300"/>
-<img src="screenshots/6.jpeg" width="300"/>
 
-AR View:
-<img src="screenshots/5.jpeg" width="300"/>
-<img src="screenshots/7.jpeg" width="300"/>
-<img src="screenshots/8.jpeg" width="300"/>
-<img src="screenshots/9.jpeg" width="300"/>
+# Maps View:
+
+<p align="center">
+   <img src="screenshots/2.jpeg" width="200"/>
+   <img src="screenshots/4.jpeg" width="200"/>
+   <img src="screenshots/6.jpeg" width="200"/>
+</p>
+
+
+# AR View:
+
+<p align="center">
+   <img src="screenshots/5.jpeg" width="175"/>
+   <img src="screenshots/7.jpeg" width="175"/>
+   <img src="screenshots/8.jpeg" width="175"/>
+   <img src="screenshots/9.jpeg" width="175"/>
+</p>
+
 
 ## 💡 Katkı
 Katkıda bulunmak isterseniz, lütfen bir fork oluşturun ve pull request gönderin.
