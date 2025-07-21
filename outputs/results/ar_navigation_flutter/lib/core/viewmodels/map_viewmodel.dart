@@ -4,7 +4,7 @@ import '../services/location_service.dart';
 import '../services/navigation_service.dart';
 import '../widgets/poi_list.dart';
 
-const String googleMapsApiKey = 'AIzaSyB8RJtVLsgsB8m8KACBso-zq6XtJ5vD-t4'; // <-- Buraya kendi API anahtarınızı girin
+const String googleMapsApiKey = 'YOUR_GOOGLE_MAPS_API_KEY_HERE'; // <-- Buraya kendi API anahtarınızı girin
 
 class MapViewModel extends ChangeNotifier {
   final LocationService _locationService = LocationService();

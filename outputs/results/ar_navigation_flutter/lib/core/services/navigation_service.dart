@@ -64,7 +64,7 @@ class NavigationService {
   // --- GOOGLE DIRECTIONS API ---
   Future<void> fetchRouteFromGoogleDirections() async {
     if (_currentLocation == null || _selectedPOI == null) return;
-    final apiKey = "AIzaSyB8RJtVLsgsB8m8KACBso-zq6XtJ5vD-t4";
+    final apiKey = "YOUR_GOOGLE_MAPS_API_KEY_HERE";
     if (apiKey == null || apiKey.isEmpty) {
       print('Google Maps API key not found in .env');
       return;
