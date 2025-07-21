@@ -1,0 +1,32 @@
+# Project Structure
+
+- lib/
+  - main.dart
+  - core/
+    - services/
+      - location_service.dart
+      - navigation_service.dart
+      - ar_service.dart
+    - viewmodels/
+      - map_viewmodel.dart
+      - ar_viewmodel.dart
+    - views/
+      - home_view.dart
+      - map_view.dart
+      - ar_view.dart
+    - widgets/
+      - poi_list.dart
+      - navigation_button.dart
+  - utils/
+    - constants.dart
+    - permissions.dart
+- assets/
+  - models/
+    - arrow_3d_model.sfb (veya uygun format)
+- android/
+  - (native ARCore destek için gerekli ayarlar)
+- ios/
+  - (native ARKit destek için gerekli ayarlar)
+
+- pubspec.yaml
+- README.md

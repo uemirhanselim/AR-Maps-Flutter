@@ -1,0 +1,14 @@
+1. Flutter projesini null safety ile oluştur.
+2. pubspec.yaml dosyasına gerekli paketleri ekle: google_maps_flutter, arcore_flutter_plugin, provider, location.
+3. Proje yapısını structure.md’ye göre oluştur.
+4. Kullanıcıdan konum izinlerini alma ve konum bilgisini alma servislerini yaz.
+5. Google Maps tam ekran gösteren bir sayfa oluştur ve kullanıcı konumuna odaklan.
+6. Kullanıcının yakınındaki POI’leri basit sabit liste veya sahte veri ile gösteren widget geliştir.
+7. POI seçildiğinde navigasyon başlatılacak şekilde viewmodel ve servisler yaz.
+8. Navigasyon başladığında ekranda "Live AR View" butonu göster.
+9. Bu butona tıklandığında kamera açılacak ve ARCore ile hedefe yönlendiren 3D ok gösterilecek.
+10. Eğer arcore_flutter_plugin çalışmazsa, plugin içindeki hatalı kodları bul, düzelt ve yapılan değişiklikleri raporla.
+11. MVVM pattern ve Provider kullanarak state management sağla.
+12. Tüm UI elementlerini ui.md’de tarif edildiği gibi yap.
+13. Proje çıktılarını outputs/results/ içine yaz.
+14. outputs/task_list.md dosyasını generate_tasklist.tpl şablonuna göre oluştur.
