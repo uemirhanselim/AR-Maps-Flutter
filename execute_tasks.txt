@@ -1,8 +1,29 @@
 # Execute Task List for AR Navigation Flutter Project
 
+Instructions:
+- Execute each task one by one in order.
+- For each task:
+  - Implement the described functionality
+  - Test thoroughly
+  - Fix bugs before moving on
+  - Use outputs/results/ as the root directory for generated files
+  - Follow structure.md and ui.md strictly
+  - Use null safety and Provider for state management
+  - Do not use deprecated or unstable packages
+  - If a plugin causes issues, fix and log changes in outputs/results/debug/
+  - Do not skip or reorder any task
+
+Task List:
 {{#tasks}}
 - [ ] Task {{index}}: {{title}}
   - Description: {{description}}
   - Status: {{status}}
 
 {{/tasks}}
+
+After completing all tasks:
+- Generate a final report in `outputs/final_report.md`
+  - Include summary of implementations
+  - List of issues fixed
+  - Any deviations from original task list with reasons
+  - (Optional) Screenshots of the working application
